@@ -12,9 +12,11 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  width: 93%;
   margin: 0 auto;
-  padding: 0 20px;
+}
+.container > p{
+  margin-bottom: 1em;
 }
 
 /* Navigation Styles */
@@ -30,8 +32,9 @@ body {
 }
 
 .logo svg {
-  width: 150px;
+  width: 10em;
   height: auto;
+  transform: translateX(-2em);
 }
 
 .nav-links {
